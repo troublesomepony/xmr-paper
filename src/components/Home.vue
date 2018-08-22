@@ -24,7 +24,7 @@
     </div>
     <hr>
     <i>
-      Source code @  <a target="_blank" href="https://github.com/bradoyler/xmr-paper">Github.com/bradoyler/XMR-Paper</a>
+      Source code @  <a target="_blank" href="https://github.com/troublesomepony/xmr-paper">Github.com/troublesomepony/XMR-Paper</a>
     </i>
   </div>
 </template>
@@ -35,7 +35,7 @@ const walletUtils = require('mymonero-core-js/monero_utils/monero_wallet_utils')
 export default {
   data () {
     return {
-      title: 'Monero Paper',
+      title: 'Monero X Paper',
       displayClass: 'is-hidden',
       mnemonicString: '',
       public_addr: ''
@@ -54,7 +54,6 @@ export default {
 
 <style lang="css">
   .panel-body {
-    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
     font-size: 12px;
     text-align: left;
     color: #2bf22b;

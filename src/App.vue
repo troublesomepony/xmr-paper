@@ -9,7 +9,7 @@ export default {
   name: 'app',
   data () {
     return {
-      test: 'XMR'
+      test: 'MRX'
     }
   },
   mounted() {
@@ -19,13 +19,7 @@ export default {
 </script>
 
 <style>
-html {
-  font-size: 110%;
-}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
