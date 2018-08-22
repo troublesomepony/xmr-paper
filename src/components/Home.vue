@@ -1,9 +1,8 @@
 <template lang="html">
   <div class="container">
-    <h2>{{title}}</h2>
-    <p><i>This generates a new wallet address & mnemonic seed </i></p>
-    <div class="btn-group btn-group-lg" role="group">
-      <button type="button" v-on:click="createWallet" class="btn btn-success">Create Wallet</button>
+    <h1 style="margin-top: 20vw" class="display-1">{{title}}</h1>
+    <div style="margin-top: 2vw" class="btn-group btn-group-lg" role="group">
+      <button type="button" v-on:click="createWallet" class="btn btn-danger">New Wallet</button>
     </div>
     <br><br>
     <div id="panel1" class="console panel panel-default" :class="displayClass">
@@ -54,7 +53,7 @@ export default {
 
 <style lang="css">
   .panel-body {
-    font-size: 12px;
+    font-size: 16px;
     text-align: left;
     color: #2bf22b;
     background-color: #000;
